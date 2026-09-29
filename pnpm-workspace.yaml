@@ -15,7 +15,7 @@ cleanupUnusedCatalogs: true
 
 catalog:
   '@napi-rs/cli': '^3.10.3'
-  '@rsbuild/core': '~2.2.9'
+  '@rsbuild/core': '~2.2.11'
   '@rsbuild/plugin-react': '^2.1.0'
   '@rsbuild/plugin-sass': '^2.0.1'
   '@rslib/core': '~1.0.2'
@@ -30,7 +30,7 @@ catalog:
   '@rstest/adapter-rsbuild': '~0.12.0'
   '@rstest/adapter-rslib': '~0.12.0'
   '@rstest/core': '~0.12.2'
-  '@swc-next/parser': '0.2.2'
+  '@swc-next/parser': '0.2.3'
   '@testing-library/dom': '^10.4.2'
   '@testing-library/jest-dom': '^7.0.1'
   '@testing-library/react': '^16.3.3'

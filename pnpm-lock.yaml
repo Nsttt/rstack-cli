@@ -310,8 +310,8 @@ catalogs:
       specifier: 1.0.14
       version: 1.0.14
     zephyr-rspress-plugin:
-      specifier: 1.4.0
-      version: 1.4.0
+      specifier: 1.4.2
+      version: 1.4.2
 
 importers:
 
@@ -660,7 +660,7 @@ importers:
         version: 7.0.2
       zephyr-rspress-plugin:
         specifier: 'catalog:'
-        version: 1.4.0(@rsbuild/core@2.2.11)(@rspack/core@2.2.8)(@rspress/core@2.0.22)(supports-color@8.1.1)
+        version: 1.4.2(@rsbuild/core@2.2.11)(@rspack/core@2.2.8)(@rspress/core@2.0.22)(supports-color@8.1.1)
 
 packages:
 
@@ -3729,29 +3729,29 @@ packages:
     engines: {node: '>= 14.6'}
     hasBin: true
 
-  zephyr-agent@1.4.0:
-    resolution: {integrity: sha512-5DP9yr63WSe9tNszyJIa3OdW5Y0yCoQ00StpGOWzbfLJOVRD3kOkVYJ8Oecy3InIQ2rFpIDwpG/insf9bi44rg==}
+  zephyr-agent@1.4.2:
+    resolution: {integrity: sha512-3eov7Ef897wHaw6JAe1FBxR60uHwUxTIb4+hq1+XFkH4QA1LaGpdXbGbnaAWi+PnspQ6oGhUgi+FwBpJskCeWQ==}
 
-  zephyr-edge-contract@1.4.0:
-    resolution: {integrity: sha512-0x3Yv8TufB1ie24q1sRhW/xnvge4Pfxo+1NjZ7CRDixsIyWodNef9P0wZvN4pPhXunKJgJ1oLRdb0VjUiBDOPw==}
+  zephyr-edge-contract@1.4.2:
+    resolution: {integrity: sha512-PWUbqZtV3nMHM1cabrfZ+3IRLBlvSD75uuqm9SH85O1Uoz8cIFJI6AzNAgvjoeA/BOOTnKLPWNEWjif7MWCe2Q==}
 
-  zephyr-rsbuild-plugin@1.4.0:
-    resolution: {integrity: sha512-0DJlsS93Jn5h3ClNdll4UXW6/HT22wzxv4UiYTmQjibMSYHKriQ77p6NrhwnneSXvR8nvTl8LwUFtpxVxS9XQA==}
+  zephyr-rsbuild-plugin@1.4.2:
+    resolution: {integrity: sha512-oiJmqrMi0MPT49dwnLQlaCVIsvcZs4/DAbY5sBcoe+GxGVvpt0hnd5VFm2bCYvVRvRzJPlEACtaguK4hIzkDHQ==}
     peerDependencies:
       '@rsbuild/core': ^1.0.0 || ^2.0.0-0
 
-  zephyr-rspack-plugin@1.4.0:
-    resolution: {integrity: sha512-/QiPEjnXYoCqbpxbgTjcR6VO0mWFqmKzjnXP32djqhuEhufajQ7pfhZLJ2M6Q2x2UStZOgZscdDapv0STgg6/A==}
+  zephyr-rspack-plugin@1.4.2:
+    resolution: {integrity: sha512-gClP8tt0j3wtsUaFJudaSRrokSklAgpJS2SUGWTYObQmWWuN9gPkTLq16pg4kWrraNRy/2l7NGpps4/Sux0ynQ==}
     peerDependencies:
       '@rspack/core': ^1.0.0 || ^2.0.0-0
 
-  zephyr-rspress-plugin@1.4.0:
-    resolution: {integrity: sha512-SelpsVZtJh3J51s94rC4wfy4xwdxEOXgX+ZlS1a0Vez6gb0txA2UrbzBibW54djncaNGYxyA0yxkyZrjCDDDfg==}
+  zephyr-rspress-plugin@1.4.2:
+    resolution: {integrity: sha512-tr9Tj2r8y1Etv2E+0BWYtOIwqSh15PQ3nIs3M5nyJTDwvAuPBeqZWRdZEM4HxSb7tYKmKVQMMqU8ZWHNNXtpcg==}
     peerDependencies:
       '@rspress/core': ^2.0.0
 
-  zephyr-xpack-internal@1.4.0:
-    resolution: {integrity: sha512-Z+a8MfKCibtuoGoto2HW/TvU8sGGlwgYLspoDYXOMM3YCGgukyCuyPpnpR8OkOW2rmRq8ApdIyZExJzSxnJvzg==}
+  zephyr-xpack-internal@1.4.2:
+    resolution: {integrity: sha512-F23Uxsfysjm4aUeOD0TB9mkiBCvD4D1DE93sH/stw7U+NrcWQtNYFSJRtpVf2SAsRATwKWIbFS8iVTcceKvPyw==}
 
   zimmerframe@1.1.4:
     resolution: {integrity: sha512-B58NGBEoc8Y9MWWCQGl/gq9xBCe4IiKM0a2x7GZdQKOW5Exr8S1W24J6OgM1njK8xCRGvAJIL/MxXHf6SkmQKQ==}
@@ -6941,7 +6941,7 @@ snapshots:
   yaml@2.9.0:
     optional: true
 
-  zephyr-agent@1.4.0(supports-color@8.1.1):
+  zephyr-agent@1.4.2(supports-color@8.1.1):
     dependencies:
       '@bybrave/proper-lockfile2': 5.0.0
       '@toon-format/toon': 4.1.1
@@ -6953,50 +6953,50 @@ snapshots:
       jiti: 2.7.0
       jose: 6.2.12
       open: 11.0.4
-      zephyr-edge-contract: 1.4.0
+      zephyr-edge-contract: 1.4.2
     transitivePeerDependencies:
       - kerberos
       - supports-color
 
-  zephyr-edge-contract@1.4.0: {}
+  zephyr-edge-contract@1.4.2: {}
 
-  zephyr-rsbuild-plugin@1.4.0(@rsbuild/core@2.2.11)(@rspack/core@2.2.8)(supports-color@8.1.1):
+  zephyr-rsbuild-plugin@1.4.2(@rsbuild/core@2.2.11)(@rspack/core@2.2.8)(supports-color@8.1.1):
     dependencies:
       '@rsbuild/core': 2.2.11
-      zephyr-agent: 1.4.0(supports-color@8.1.1)
-      zephyr-rspack-plugin: 1.4.0(@rspack/core@2.2.8)(supports-color@8.1.1)
-      zephyr-xpack-internal: 1.4.0(supports-color@8.1.1)
+      zephyr-agent: 1.4.2(supports-color@8.1.1)
+      zephyr-rspack-plugin: 1.4.2(@rspack/core@2.2.8)(supports-color@8.1.1)
+      zephyr-xpack-internal: 1.4.2(supports-color@8.1.1)
     transitivePeerDependencies:
       - '@rspack/core'
       - kerberos
       - supports-color
 
-  zephyr-rspack-plugin@1.4.0(@rspack/core@2.2.8)(supports-color@8.1.1):
+  zephyr-rspack-plugin@1.4.2(@rspack/core@2.2.8)(supports-color@8.1.1):
     dependencies:
       '@rspack/core': 2.2.8(@swc/helpers@0.5.23)
-      zephyr-agent: 1.4.0(supports-color@8.1.1)
-      zephyr-xpack-internal: 1.4.0(supports-color@8.1.1)
+      zephyr-agent: 1.4.2(supports-color@8.1.1)
+      zephyr-xpack-internal: 1.4.2(supports-color@8.1.1)
     transitivePeerDependencies:
       - kerberos
       - supports-color
 
-  zephyr-rspress-plugin@1.4.0(@rsbuild/core@2.2.11)(@rspack/core@2.2.8)(@rspress/core@2.0.22)(supports-color@8.1.1):
+  zephyr-rspress-plugin@1.4.2(@rsbuild/core@2.2.11)(@rspack/core@2.2.8)(@rspress/core@2.0.22)(supports-color@8.1.1):
     dependencies:
       '@rspress/core': 2.0.22(@rspack/core@2.2.8)(micromark-util-types@2.0.2)(micromark@4.0.2)(supports-color@8.1.1)
-      zephyr-agent: 1.4.0(supports-color@8.1.1)
-      zephyr-edge-contract: 1.4.0
-      zephyr-rsbuild-plugin: 1.4.0(@rsbuild/core@2.2.11)(@rspack/core@2.2.8)(supports-color@8.1.1)
-      zephyr-xpack-internal: 1.4.0(supports-color@8.1.1)
+      zephyr-agent: 1.4.2(supports-color@8.1.1)
+      zephyr-edge-contract: 1.4.2
+      zephyr-rsbuild-plugin: 1.4.2(@rsbuild/core@2.2.11)(@rspack/core@2.2.8)(supports-color@8.1.1)
+      zephyr-xpack-internal: 1.4.2(supports-color@8.1.1)
     transitivePeerDependencies:
       - '@rsbuild/core'
       - '@rspack/core'
       - kerberos
       - supports-color
 
-  zephyr-xpack-internal@1.4.0(supports-color@8.1.1):
+  zephyr-xpack-internal@1.4.2(supports-color@8.1.1):
     dependencies:
-      zephyr-agent: 1.4.0(supports-color@8.1.1)
-      zephyr-edge-contract: 1.4.0
+      zephyr-agent: 1.4.2(supports-color@8.1.1)
+      zephyr-edge-contract: 1.4.2
     transitivePeerDependencies:
       - kerberos
       - supports-color
